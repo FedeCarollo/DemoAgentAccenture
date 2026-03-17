@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import {
     Calendar as CalendarIcon, Clock, Users, Globe, CheckCircle2,
-    AlertCircle, ChevronRight, Check, X, Loader2, CalendarPlus,
+    AlertCircle, ChevronRight, ArrowRight, Settings, Check, X, Loader2, CalendarPlus,
     Info, UserPlus, Target, Send, CalendarCheck, CalendarX, Zap, ListFilter, Activity
 } from 'lucide-react';
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
@@ -201,7 +201,7 @@ export default function ScheduleAIDemo() {
                             </div>
                         </div>
 
-                        <Card className="border-slate-200 shadow-xl shadow-slate-200/50 bg-white overflow-hidden relative">
+                        <Card className="border-slate-200 shadow-xl shadow-slate-200/50 bg-white relative">
 
                             {/* Decorative top gradient */}
                             <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-indigo-500 to-purple-500" />
